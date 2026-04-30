@@ -1,0 +1,162 @@
+/* =========================
+   GLOBAL FONT + BACKGROUND
+========================= */
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, #061525, #0B2A4A, #061525);
+  color: white;
+}
+
+/* =========================
+   NOM / HEADER TITLE
+========================= */
+
+header h1 {
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: 2px;
+
+  /* effet stylé */
+  background: linear-gradient(90deg, #38bdf8, #a78bfa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  text-transform: uppercase;
+}
+
+/* =========================
+   NAV STYLE
+========================= */
+
+nav a {
+  transition: 0.3s ease;
+  opacity: 0.8;
+}
+
+nav a:hover {
+  opacity: 1;
+  color: #38bdf8;
+}
+
+/* =========================
+   TITRES SECTIONS
+========================= */
+
+h2 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+/* petit underline stylé */
+h2::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 3px;
+  margin-top: 6px;
+  background: linear-gradient(90deg, #38bdf8, #a78bfa);
+  border-radius: 10px;
+}
+
+/* =========================
+   CV comme une carte projet
+========================= */
+
+a[href*="CV"] {
+  display: inline-block;
+  padding: 16px;
+  border-radius: 16px;
+
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.1);
+
+  backdrop-filter: blur(12px);
+
+  transition: 0.3s ease;
+  font-weight: 600;
+}
+
+a[href*="CV"]:hover {
+  transform: translateY(-8px) scale(1.03);
+  background: rgba(255,255,255,0.1);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+
+/* =========================
+   TEXTES
+========================= */
+
+p {
+  line-height: 1.6;
+  color: rgba(255,255,255,0.85);
+}
+
+/* =========================
+   PROJETS (uniformité CV = projets)
+========================= */
+
+#projects a {
+  display: block;
+  padding: 16px;
+  border-radius: 16px;
+
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.1);
+
+  backdrop-filter: blur(12px);
+
+  transition: 0.3s ease;
+}
+
+#projects a:hover {
+  transform: translateY(-10px) scale(1.02);
+  background: rgba(255,255,255,0.1);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.4);
+}
+
+/* images projets */
+#projects img {
+  transition: 0.4s ease;
+}
+
+#projects a:hover img {
+  transform: scale(1.08);
+}
+
+/* =========================
+   INTRO NOM STYLE
+========================= */
+
+header h1 {
+  font-family: 'Inter', sans-serif;
+}
+
+/* option si tu veux encore plus stylé */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&display=swap');
+
+header h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* =========================
+   ANIMATION
+========================= */
+
+body {
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

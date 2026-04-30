@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <link rel="stylesheet" href="style.css">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+  <title>Tojoniaina Andrianina Andriamanantsoa - Portfolio</title>
+
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+  <link href="https://fonts.bunny.net/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <style type="text/tailwindcss">
+    @theme {
+      --default-font-family: "Inter";
+    }
+  </style>
+</head>
+
+<body class="antialiased bg-white text-zinc-800 dark:bg-zinc-950 dark:text-zinc-100">
+
+<div class="min-h-dvh px-6 py-10 max-w-6xl mx-auto">
+
+  <!-- HEADER -->
+  <header class="flex justify-between items-center mb-10">
+    <h1 class="text-2xl font-bold">
+      ☀︎ Tojoniaina Andrianina
+    </h1>
+
+    <nav class="flex gap-6 text-sm font-medium">
+       <nav class="flex gap-6 text-sm font-medium">
+    <a href="#about">À propos</a>
+    <a href="#projects">Projets</a>
+    <a href="#cv">CV</a>
+     <a href="#contact" >Contact</a>
+  </nav>
+    </nav>
+  </header>
+
+  <!-- INTRO -->
+  <section class="grid md:grid-cols-2 gap-10 items-center mb-16">
+
+    <img src="assets/photo.jpeg" class="rounded-xl w-full aspect-square object-cover" alt="Photo de profil">
+
+    <div>
+      <h2 class="text-3xl font-semibold mb-4">
+        Bonjour, je suis Tojo 👋
+      </h2>
+
+      <p class="mb-4">
+        Étudiante en Master 2 Humanités Numériques à
+        <a href="https://udm.ac.mu/fr/" target="_blank" class="text-blue-500 underline">
+          l’Université des Mascareignes
+        </a>, Maurice.
+      </p>
+
+      <p class="mb-4">
+        Issue d’une formation en Ressources Humaines, je construis aujourd’hui mon parcours entre les RH, le numérique et l’analyse de données, avec une forte envie de comprendre et améliorer les pratiques professionnelles à travers les outils digitaux.
+      </p>
+
+      <p>
+        Je cherche à développer des projets concrets, utiles et ancrés dans la réalité du terrain, en combinant vision humaine et innovation technologique.
+      </p>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="mb-16">
+    <h2 class="text-xl font-bold mb-4">À propos</h2>
+
+    <p>
+      Mon parcours m’a permis de développer des compétences solides en gestion des ressources humaines, communication numérique, analyse de données et gestion de projets. J’ai toujours été intéressée par la manière dont les organisations fonctionnent et évoluent, notamment à travers les outils digitaux qui transforment aujourd’hui le recrutement et la gestion des talents.
+      <br><br>
+      Aujourd’hui, je cherche à aller plus loin en créant des projets concrets qui répondent à des besoins réels. Mon objectif est de relier la théorie apprise à l’université avec la pratique sur le terrain, notamment à Madagascar et dans la région de l’océan Indien.
+    </p>
+  </section>
+
+  <!-- CV -->
+  <section id="cv" class="mb-16">
+    <h2 class="text-xl font-bold mb-4">CV</h2>
+
+    <a href="assets/CV_Tojo.jpg" target="_blank"
+       class="inline-block bg-zinc-200 dark:bg-zinc-800 p-4 rounded-xl hover:scale-105 transition">
+      📄 Ouvrir mon CV
+    </a>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <h2 class="text-xl font-bold mb-6">Projets</h2>
+
+    <div class="grid md:grid-cols-3 gap-6">
+
+      <!-- NOVA + RECRUTEMENT -->
+      <a href="assets/Nova.jpg" target="_blank"
+         class="bg-zinc-100 dark:bg-zinc-900 p-4 rounded-xl hover:scale-105 transition">
+        <img src="assets/Nova.jpg" class="rounded mb-2">
+        <p class="font-medium">Nova & Recrutement</p>
+        <p class="text-sm mt-2">
+          Nova est un projet qui représente la création d’une agence de recrutement locale à Madagascar.
+          L’objectif est de rapprocher les jeunes talents des entreprises, tout en modernisant les pratiques RH.
+          Ce projet me permet de construire une vision concrète du recrutement sur le terrain, en tenant compte des réalités locales,
+          des besoins des entreprises et des attentes des candidats.
+        </p>
+      </a>
+
+      <!-- ATS -->
+      <a href="assets/ATS.png" target="_blank"
+         class="bg-zinc-100 dark:bg-zinc-900 p-4 rounded-xl hover:scale-105 transition">
+        <img src="assets/ATS.png" class="rounded mb-2">
+        <p class="font-medium">ATS System</p>
+        <p class="text-sm mt-2">
+          Le projet ATS représente une idée d’évolution digitale pour mon agence de recrutement.
+          Il s’agit d’un système permettant de gérer automatiquement les candidatures, trier les profils,
+          suivre les recrutements et centraliser toutes les données RH.
+          Ce projet reflète mon intérêt pour l’intelligence des données et l’optimisation des processus RH grâce au numérique.
+        </p>
+      </a>
+
+      <!-- IELTS -->
+      <a href="assets/IELTS.png" target="_blank"
+         class="bg-zinc-100 dark:bg-zinc-900 p-4 rounded-xl hover:scale-105 transition">
+        <img src="assets/IELTS.png" class="rounded mb-2">
+        <p class="font-medium">IELTS</p>
+        <p class="text-sm mt-2">
+          La préparation à l’IELTS est un objectif important dans mon parcours.
+          Elle représente une volonté de progresser en anglais afin d’évoluer dans un contexte international.
+          C’est un travail constant qui demande discipline, rigueur et motivation, mais qui est essentiel pour mes ambitions académiques et professionnelles.
+        </p>
+      </a>
+
+      <!-- DELF -->
+      <a href="assets/DELF.jpg" target="_blank"
+         class="bg-zinc-100 dark:bg-zinc-900 p-4 rounded-xl hover:scale-105 transition">
+        <img src="assets/DELF.jpg" class="rounded mb-2">
+        <p class="font-medium">DELF C2</p>
+        <p class="text-sm mt-2">
+          Le DELF C2 est un objectif exigeant qui reflète ma volonté de perfectionner mon niveau en français.
+          Il me permettrait de renforcer mes compétences en expression écrite et orale,
+          et d’évoluer dans des environnements académiques et professionnels de haut niveau.
+        </p>
+      </a>
+
+      <!-- FORMATION -->
+      <a href="assets/Formation.jpg" target="_blank"
+         class="bg-zinc-100 dark:bg-zinc-900 p-4 rounded-xl hover:scale-105 transition">
+        <img src="assets/Formation.jpg" class="rounded mb-2">
+        <p class="font-medium">Formation & Développement</p>
+        <p class="text-sm mt-2">
+          Je poursuis différentes formations complémentaires en droit du travail à Madagascar,
+          en outils numériques et en analyse de données appliquées aux ressources humaines.
+          L’objectif est de renforcer mes compétences pratiques afin de mieux comprendre et encadrer les réalités du monde professionnel.
+        </p>
+      </a>
+</div>
+      <section id="contact" class="mt-20 p-8 rounded-2xl bg-gradient-to-r from-blue-900 to-indigo-800 text-white shadow-xl">
+
+  <h2 class="text-2xl font-bold mb-4">Contactez-moi 📩</h2>
+
+  <p class="mb-6 text-white/80">
+    Si vous souhaitez collaborer, proposer un projet ou simplement échanger, vous pouvez me contacter directement.
+  </p>
+
+  <div class="flex flex-col gap-4">
+
+    <a href="mailto:rtandriamanantsoa@student.udm.ac.mu"
+       class="inline-flex items-center gap-3 bg-white text-blue-900 font-semibold px-5 py-3 rounded-xl w-fit hover:scale-105 transition">
+
+      ✉️ Envoyer un email
+    </a>
+
+    <div class="text-sm text-white/80">
+      Email direct : <span class="font-medium">rtandriamanantsoa@student.udm.ac.mu</span>
+    </div>
+
+  </div>
+
+</section>
+
+    </div>
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer class="mt-20 text-center text-sm text-zinc-500">
+    © Tojoniaina Andrianina Andriamanantsoa — Université des Mascareignes
+  </footer>
+
+</div>
+
+</body>
+</html>
